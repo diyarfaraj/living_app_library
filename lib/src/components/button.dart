@@ -53,7 +53,9 @@ class LivingAppButton extends StatelessWidget {
             : Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  icon != null ? Icon(icon, color: textColor) : SizedBox(),
+                  icon != null
+                      ? Icon(icon, color: textColor)
+                      : const SizedBox(),
                   SizedBox(width: icon != null ? 10 : 0),
                   Text(
                     text,
