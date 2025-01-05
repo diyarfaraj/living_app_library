@@ -2,6 +2,7 @@ name: living_app_library
 description: "Living App Library"
 version: 0.0.1
 homepage:
+publish_to: none
 
 environment:
   sdk: ^3.5.1
